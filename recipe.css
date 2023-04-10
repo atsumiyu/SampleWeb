@@ -1,0 +1,48 @@
+.position_c {
+    text-align: center;
+}
+
+body {
+    background-image: url(C:/Users/axiz/Documents/Sample_Web/image/bg_Argyle.jpg);
+    background-size: cover;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.borderline_a {
+    border-width: 10px;
+    border-color: red;
+    border-style: double;
+}
+
+.textcolor_red {
+    color: red;
+}
+
+.hyou_red {
+    border: 1px solid #FF0000; /* 赤色の枠線を設定 */
+    background-color: #f8d6d6;
+}
+
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 200px; /* 画像の幅 */
+    height: auto;
+  }
+  
+  .text1 {
+    margin-bottom: 10px;
+  }
+  
+  .text2 {
+    clear: left;
+  }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+
+<body>
+
+    <h3 class="position_c green">アンケート</h3>
+    
+    <hr class="border_aqua">
+
+    <div class="background_white">
+        <p>AxiZの研修をご利用いただき、誠にありがとうございます。</p>
+        <p>以下の内容を記入及び送信して頂けると幸いです。</p>
+    
+        <p>
+            会社名
+            <span class="background_red white">必須</span>
+            <br>
+            <input class="waku" type="text" placeholder="例)株式会社テクノコア">
+            
+        </p>
+    
+    
+        <p>
+            名前
+            <span class="background_red white">必須</span>
+            <br>
+            <input class="waku" type="text" placeholder="例)手久野　興亜">
+    
+        </p>
+        
+        <p>
+            メールアドレス
+            <br>
+            <input class="waku" type="text" placeholder="例)example@axiz.co.jp">
+    
+        </p>
+    
+    
+        <p>
+            年齢
+            <br>
+            <input class="width_50px waku" type="text">
+        </p>
+        
+        <p>
+            <label>受講コース</label>
+            <br>
+            <label><input type="radio" name="corce" value="java" checked>Java</label>
+            <label><input type="radio" name="corce" value="infura">インフラ</label>
+        </p>
+    
+    
+        <p>
+            会場
+            <br>
+            <select class="waku">
+                <option selected>日本橋A教室</option>
+                <option>日本橋B教室</option>
+                <option>日本橋C教室</option>
+                <option>日本橋D教室</option>
+            </select>
+        </p>
+    
+        <p>
+            <label>詳しく学びたい内容(複数回答可)</label>
+            <br>
+            <label><input type="checkbox">ビジネスマナー講座</label><br>
+            <label><input type="checkbox">HTML/CSS</label><br>
+            <label><input type="checkbox">JavaScript</label><br>
+            <label><input type="checkbox">Java</label><br>
+            <label><input type="checkbox">データベース</label><br>
+            <label><input type="checkbox">Linux</label><br>
+    
+        </p>
+        
+        <p>
+            ご意見
+            <br>
+            <textarea class="box_sizing" rows="7" placeholder="自由にご記入ください。"></textarea>
+        </p>
+
+        <button>送信する</button>
+
+    </div>
+
+    <hr class="border_aqua">
+
+    <div class="position_c">Copyright(C)Axic</div>
+
+</body>
+
+</html>

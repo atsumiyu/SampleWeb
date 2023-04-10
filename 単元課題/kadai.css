@@ -1,0 +1,19 @@
+.background {
+    background-color: aquamarine;
+    background-size: cover; /* 背景画像をコンテナーに合わせて表示 */
+    background-repeat: no-repeat; /* 背景画像を繰り返さない */
+}
+
+.index_image1 {
+    width: 100px;
+    height: 100px;
+}
+
+.position_c {
+    text-align: center;
+}
+
+.position_right {
+    float: right;
+    margin-left: 1px;
+}

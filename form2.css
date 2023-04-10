@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(212, 255, 241);
+}
+
+.background_white {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 33%;
+    margin-left: 33%;
+    padding: 10px;
+}
+
+.waku {
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #c0c0c0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.box_sizing {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*
+textarea {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+*/
+
+.background_red {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.border_aqua {
+    border-color: aqua;
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: rgb(0, 190, 0);
+}
+
+.width_50px {
+    width: 50px;
+}
+
+
+.position_c {   /*位置調整(中央)*/
+    text-align: center;
+}

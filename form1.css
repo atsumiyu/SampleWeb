@@ -1,0 +1,24 @@
+.position_c {   /*位置調整(中央)*/
+    text-align: center;
+}
+
+body {  /*背景設定*/
+    background-image: url(C:/Users/axiz/Documents/Sample_Web/image/bg_Argyle.jpg);
+    background-size: cover;
+
+}
+
+.background_white { /*余白指定*/
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #888888;
+    margin: 5% 15% 15% 15%;
+    padding: 15px;
+}
+
+.waku {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(173, 173, 173);
+    padding: 3px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+
+<body class="position_c">
+
+    <h1>質問・感想フォーム</h1>
+
+    <div class="background_white">
+
+    <form>
+        氏名
+        <p>
+            <input type="text">
+        </p>
+        
+        <p>
+            <label>性別</label>
+            
+            <br>
+             <!-- CSSで枠線をつける -->
+             <label class="waku"><input type="radio" name="sei" value="male" checked>男</label>
+             <label class="waku">女<input type="radio" name="sei" value="female"></label>
+        </p>
+        
+        <p>
+            年齢
+
+            <br>
+    
+            <select>
+                <option selected>10代</option>
+                <option>20代</option>
+                <option>30代</option>
+                <option>40代</option>
+                <option>50代</option>
+                <option>60代</option>
+                <option>70代</option>
+                <option>80代</option>
+                <option>90代</option>
+            </select>
+        </p>
+        
+        <p>
+            <label>今後見てみたいレシピ</label>
+
+            <br>
+    
+            <label class="waku"><input type="checkbox">和食</label>
+            <label class="waku"><input type="checkbox">中華</label>
+            <label class="waku"><input type="checkbox">洋食</label>
+            <label class="waku"><input type="checkbox">イタリアン</label>
+            <label class="waku"><input type="checkbox">スイーツ</label>
+            <label class="waku"><input type="checkbox">その他</label>
+        </p>
+    
+        <p>
+            自由コメント欄
+        <br>
+
+        <textarea rows="4" cols="40" placeholder="自由に意見を記述してください"></textarea>
+    
+        </p>
+
+        <button>送信</button>
+        <button type="reset">取り消し</button>
+        
+    </form>
+
+    </div>
+
+</body>
+
+</html>
