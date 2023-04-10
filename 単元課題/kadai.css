@@ -4,9 +4,30 @@
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
 }
 
+.background_aliceblue {
+    background-color: aliceblue;
+    margin: 0px 50px 0px 50px;
+    padding: 0px 20px 10px 20px;
+}
+
 .index_image1 {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.index_shumi {
+    width: 250px;
+    height: 180px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.index_keireki {
+    width: 150px;
+    height: 120px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .position_c {
@@ -16,4 +37,13 @@
 .position_right {
     float: right;
     margin-left: 1px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.border_green {
+    border-color: green;
 }
